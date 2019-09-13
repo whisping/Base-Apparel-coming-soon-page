@@ -1,0 +1,88 @@
+.container {
+    max-width: 100%;
+    margin: 0;
+    padding-right: 0;
+}
+
+.left-section {
+    background: url("images/bg-pattern-desktop.svg") no-repeat;
+    background-size: 100%;
+    padding: 4em 10em;
+}
+
+.right-section {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.were {
+    font-weight: 300;
+    color: hsl(0, 36%, 70%);
+}
+
+p {
+    color: hsl(0, 36%, 70%);
+    line-height: 1.8;
+    display: inline-block;
+    width: 27em;
+}
+
+.logo {
+    padding-bottom: 9em;
+}
+
+.heading {
+    font-size: 4em;
+    letter-spacing: 0.25em;
+}
+
+.girl {
+    float: right;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+.input-group {
+    width: 30em;
+}
+
+/* hsl(0, 6%, 24%)
+hsl(0, 93%, 68%)
+hsl(0, 36%, 70%) */
+
+.btn-outline-secondary {
+    border-color: hsl(0, 36%, 70%, 0.5);
+    color: hsl(0, 36%, 70%);
+    width: 6em;
+    border-radius: 5em;
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    position: relative;
+    right: 2em;
+    z-index: 10;
+    /* opacity: 0.5; */
+}
+
+.form-control {
+    border-color: hsl(0, 36%, 70%);
+    color: hsl(0, 36%, 70%);
+    border-radius: 5em;
+    padding: 1.6em;
+    opacity: 0.5;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: blue;
+  opacity: 0.5; /* Firefox */
+}
+
+.input-section {
+
+}
