@@ -135,6 +135,8 @@ hsl(0, 36%, 70%) */
 
     p {
         padding-bottom: 2rem;
+        width: 80%;
+        font-size: 1.2em;
     }
 
     .input-section {
